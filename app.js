@@ -11,3 +11,4 @@ app.listen(PORT, () => console.log(`Listening on http://localhost:${PORT}`))
 //!-----------ROUTES --------------------
 
 app.use("/", spotifyRouter);
+app.use("/login", spotifyRouter);
