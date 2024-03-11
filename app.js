@@ -13,3 +13,4 @@ app.listen(PORT, () => console.log(`Listening on http://localhost:${PORT}`))
 app.use("/", spotifyRouter);
 app.use("/login", spotifyRouter);
 app.use('/callback', spotifyRouter)
+app.use('/refresh_token', spotifyRouter)
